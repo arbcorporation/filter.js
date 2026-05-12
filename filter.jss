@@ -1,7 +1,3 @@
-https://claude.ai
-Content is user-generated and unverified.
-
-Customize
 (async () => { // ── LAYER 1: Nuke helper — called by any layer that detects tampering ───── function _nuke(reason) {
 window._authPassed = false; window.fetch = () => new Promise(() => {}); window.XMLHttpRequest =
 function(){return{open:()=>{},send:()=>{},setRequestHeader:()=>{}};}; document.querySelector = () => null;
